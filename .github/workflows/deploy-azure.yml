@@ -34,6 +34,7 @@ jobs:
         run: |
           # 파이썬 앱 패키징 (필요한 경우)
           # 예: static 파일 수집, 환경설정 등
+          python make_datasets.py
           echo "Packaging completed"
         working-directory: ${{ env.WORKING_DIRECTORY }}
 
