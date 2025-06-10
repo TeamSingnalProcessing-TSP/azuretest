@@ -7,7 +7,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: "my-project-app"  # Azure 웹앱 이름으로 변경
   PYTHON_VERSION: "3.9"                         # 사용할 Python 버전
-  WORKING_DIRECTORY: "TeamSingnalProcessing-TSP/azuretest" # 프로젝트 경로
+  WORKING_DIRECTORY: "azuretest" # 프로젝트 경로
 
 jobs:
   build:
